@@ -656,123 +656,124 @@ background: var(--bg-about);
 
 @media screen and (min-width: 768px) {
 
-        .logo {
-                width: 220px;
-                        margin-left: 0;
-                            }
+    .logo {
+        width: 220px;
+        margin-left: 0;
+    }
 
-                                .hero-title span {
-                                        font-size: clamp(5rem, 12vw, 8rem);
-                                            }
+    .hero-title span {
+        font-size: clamp(5rem, 12vw, 8rem);
+    }
 
-                                                .hero h2 {
-                                                        font-size: 1.3rem;
-                                                            }
+    .hero h2 {
+        font-size: 1.3rem;
+    }
 
-                                                                .TuqueHero {
-                                                                        width: 55%;
-                                                                                top: 32%;
-                                                                                    }
+    .TuqueHero {
+        width: 55%;
+        top: 32%;
+    }
 
-                                                                                        .oeil {
-                                                                                                width: 220px;
-                                                                                                        margin: 0 -100px;
-                                                                                                            }
+    .oeil {
+        width: 220px;
+        margin: 0 -100px;
+    }
 
-                                                                                                                .work {
-                                                                                                                        padding: 60px 40px;
-                                                                                                                                gap: 25px;
-                                                                                                                                    }
+    .work {
+        padding: 60px 40px;
+        gap: 25px;
+    }
 
-                                                                                                                                        .project {
-                                                                                                                                                width: calc(50% - 15px);
-                                                                                                                                                    }
+    .project {
+        width: calc(50% - 15px);
+    }
 
-                                                                                                                                                        .about {
-                                                                                                                                                                max-width: 850px;
-                                                                                                                                                                    }
+    .about {
+        max-width: 850px;
+    }
 
-                                                                                                                                                                        .about-text {
-                                                                                                                                                                                font-size: 20px;
-                                                                                                                                                                                        max-width: 750px;
-                                                                                                                                                                                            }
-                                                                                                                                                                                            }
+    .about-text {
+        font-size: 20px;
+        max-width: 750px;
+    }
 }
 
 @media screen and (min-width: 1200px) {
 
-        .hero {
-                min-height: 100vh;
-                    }
+    .hero {
+        min-height: 100vh;
+    }
 
-                        .hero-title span {
-                                font-size: clamp(7rem, 9vw, 11rem);
-                                        line-height: 0.95;
-                                            }
+    .hero-title span {
+        font-size: clamp(7rem, 9vw, 11rem);
+        line-height: 0.95;
+    }
 
-                                                .hero h2 {
-                                                        font-size: 1.6rem;
-                                                                margin-top: 30px;
-                                                                    }
+    .hero h2 {
+        font-size: 1.6rem;
+        margin-top: 30px;
+    }
 
-                                                                        .TuqueHero {
-                                                                                width: clamp(500px, 38vw, 750px);
-                                                                                        top: 30%;
-                                                                                            }
+    .TuqueHero {
+        width: clamp(500px, 38vw, 750px);
+        top: 30%;
+    }
 
-                                                                                                .oeil {
-                                                                                                        width: 260px;
-                                                                                                                margin: 0 -115px;
-                                                                                                                    }
+    .oeil {
+        width: 260px;
+        margin: 0 -115px;
+    }
 
-                                                                                                                        .work {
-                                                                                                                                max-width: 1700px;
-                                                                                                                                        margin: auto;
-                                                                                                                                                padding: 80px;
-                                                                                                                                                        gap: 30px;
-                                                                                                                                                            }
+    .work {
+        max-width: 1700px;
+        margin: auto;
+        padding: 80px;
+        gap: 30px;
+    }
 
-                                                                                                                                                                .project {
-                                                                                                                                                                        width: calc(50% - 20px);
-                                                                                                                                                                            }
+    .project {
+        width: calc(50% - 20px);
+    }
 
-                                                                                                                                                                                .project.square {
-                                                                                                                                                                                        width: calc(33.333% - 20px);
-                                                                                                                                                                                            }
+    .project.square {
+        width: calc(33.333% - 20px);
+    }
 
-                                                                                                                                                                                                .project.vertical {
-                                                                                                                                                                                                        width: calc(25% - 20px);
-                                                                                                                                                                                                            }
+    .project.vertical {
+        width: calc(25% - 20px);
+    }
 
-                                                                                                                                                                                                                .project h2 {
-                                                                                                                                                                                                                        font-size: 1.8rem;
-                                                                                                                                                                                                                            }
+    .project h2 {
+        font-size: 1.8rem;
+    }
 
-                                                                                                                                                                                                                                .project p {
-                                                                                                                                                                                                                                        font-size: 1rem;
-                                                                                                                                                                                                                                            }
+    .project p {
+        font-size: 1rem;
+    }
 
-                                                                                                                                                                                                                                                .about {
-                                                                                                                                                                                                                                                        max-width: 1200px;
-                                                                                                                                                                                                                                                                padding: 80px 40px;
-                                                                                                                                                                                                                                                                    }
+    .about {
+        max-width: 1200px;
+        padding: 80px 40px;
+    }
 
-                                                                                                                                                                                                                                                                        .about-text {
-                                                                                                                                                                                                                                                                                max-width: 900px;
-                                                                                                                                                                                                                                                                                        font-size: 22px;
-                                                                                                                                                                                                                                                                                                line-height: 1.9;
-                                                                                                                                                                                                                                                                                                    }
+    .about-text {
+        max-width: 900px;
+        font-size: 22px;
+        line-height: 1.9;
+    }
 
-                                                                                                                                                                                                                                                                                                        .photoPerso {
-                                                                                                                                                                                                                                                                                                                width: 350px;
-                                                                                                                                                                                                                                                                                                                    }
+    .photoPerso {
+        width: 350px;
+    }
 
-                                                                                                                                                                                                                                                                                                                        .contact h2 {
-                                                                                                                                                                                                                                                                                                                                font-size: 3rem;
-                                                                                                                                                                                                                                                                                                                                    }
+    .contact h2 {
+        font-size: 3rem;
+    }
 
-                                                                                                                                                                                                                                                                                                                                        .socials {
-                                                                                                                                                                                                                                                                                                                                                gap: 50px;
-                                                                                                                                                                                                                                                                                                                                                    }
-                                                                                                                                                                                                                                                                                                                                                    }
+    .socials {
+        gap: 50px;
+    }
 }
+
+
+
