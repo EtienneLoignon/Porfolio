@@ -167,7 +167,7 @@ body {
 
 .TuqueHero{
     position: absolute;
-    top: 32%;
+    top: 34%;
     left: 51.4%;
     width: 66%; /* ajuste pour matcher ton design */
     transform: translate(-50%, -50%) scale(0.75);
